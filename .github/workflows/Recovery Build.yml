@@ -118,9 +118,9 @@ jobs:
       working-directory: workspace
       continue-on-error: true
 
-    - name: Install Python 3
+    - name: Install Python 2
       run: |
-        sudo apt -y install python3
+        sudo apt -y install python2
 
     - name: Building recovery
       run: |
